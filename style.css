@@ -28,6 +28,7 @@ body.day-mode {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
+   
 }
 
 /* Navbar */
@@ -43,7 +44,7 @@ body.day-mode {
 
 .navbar.day-mode {
   background: #f1f1f1;
-  color: #222;
+  color: #fcfcfc;
 }
 
 .logo {
@@ -162,7 +163,7 @@ body.day-mode {
 }
 
 .skills li:hover {
-  background: #ffd700;
+  background: #ffffff;
 }
 
 /* Contact */
@@ -261,4 +262,30 @@ button.btn {
   .social-icon.close:hover {
     color: #ff0000; /* Darker red */
   }
-  
+/* Make the title float around */
+.floating-title {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Animation for floating effect */
+@keyframes float {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}
