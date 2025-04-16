@@ -156,14 +156,14 @@ body.day-mode {
 }
 
 .skills li {
-  background: #eee;
+  background: #afaaaa;
   padding: 10px 15px;
   border-radius: 5px;
   transition: background 0.3s ease;
 }
 
 .skills li:hover {
-  background: #ffffff;
+  background: #ffffff31;
 }
 
 /* Contact */
